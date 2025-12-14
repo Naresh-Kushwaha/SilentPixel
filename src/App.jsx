@@ -394,7 +394,7 @@ const About = () => {
               <div className="relative aspect-[3/4] overflow-hidden bg-zinc-800 grayscale hover:grayscale-0 transition-all duration-500 group">
                 {/* REPLACE THIS SRC WITH YOUR PHOTO */}
                 <img 
-                  src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=1000&auto=format&fit=crop" 
+                  src="https://res.cloudinary.com/dov5gbt0g/image/upload/v1765709356/pappu_raktn6.jpg" 
                   alt="Profile" 
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700"
                 />
@@ -437,9 +437,9 @@ const About = () => {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">VISUALS</span>
               </h2>
               <p className="text-gray-400 text-lg leading-relaxed mb-6">
-                I am a multidisciplinary visual artist obsessed with the intersection of technology and storytelling. 
-                With a background in cinematography and a passion for digital art, I don't just capture moments; 
-                I engineer visual experiences that resonate.
+              I’m a creative video producer and content writer passionate about storytelling through visuals and words.
+               I craft engaging videos and compelling content that connect with audiences, build brand identity, and deliver meaningful
+                impact across digital platforms.
               </p>
               <p className="text-gray-400 text-lg leading-relaxed border-l-2 border-cyan-500 pl-4">
                 "In a world of noise, clarity is the ultimate luxury. My mission is to cut through the static."
