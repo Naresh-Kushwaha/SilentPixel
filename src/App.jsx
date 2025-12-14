@@ -13,7 +13,8 @@ import {
   Play, ExternalLink, Menu, X, Monitor, Aperture, Cpu, Globe, 
   Clapperboard,
   VideoIcon,
-  Linkedin
+  Linkedin,
+  Phone
 } from 'lucide-react';
 
 // --- UTILS & VARIANTS ---
@@ -277,7 +278,7 @@ const Hero = () => {
           className="text-gray-400 max-w-xl mx-auto text-lg mb-10 leading-relaxed"
         >
           Crafting digital experiences through the lens of tomorrow. 
-          Specializing in high-end video production and cinematic photography.
+          Specializing in high-end video graphy and cinematic photography.
         </motion.p>
 
         <motion.div 
@@ -617,6 +618,15 @@ const Contact = () => {
   https://silent-pixel.vercel.app/
 </a>
              </div>
+             <div className="flex items-center gap-4 text-gray-300 hover:text-cyan-400 transition-colors cursor-pointer">
+  <Phone className="h-5 w-5" />
+  <a
+    href="tel:+919999999999"   // replace with your real number
+    className="text-cyan-400 hover:underline break-all"
+  >
+    +91 83840 86499
+  </a>
+</div>
 
              <div className="pt-8 flex gap-4">
   {[
