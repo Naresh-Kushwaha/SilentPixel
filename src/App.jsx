@@ -359,11 +359,11 @@ const About = () => {
   // Skill data structure
   const skills = [
     { name: "Adobe Premiere", level: 95 },
+     { name: "Adobe Photoshop", level: 75 },
     { name: "After Effects", level: 90 },
     { name: "DaVinci Resolve", level: 85 },
-    { name: "Cinema 4D", level: 75 },
     { name: "Sound Design", level: 80 },
-    { name: "Unreal Engine", level: 60 },
+    { name: "CapCut", level: 60 },
   ];
 
   return (
